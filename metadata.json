@@ -1,0 +1,6 @@
+{
+  "name": "Matter Management - Workforce & HRMS Suite",
+  "description": "Workforce & HR Management System with Attendance check-in, Leave management, Self-Service, Recruitment, Performance, Timesheet & Expense, and Asset/Exit workflows.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

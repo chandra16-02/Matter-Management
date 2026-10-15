@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="50%" stop-color="#4338ca" />
+      <stop offset="100%" stop-color="#312e81" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background rounded squircle -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+
+  <!-- Inner subtle border -->
+  <rect x="16" y="16" width="480" height="480" rx="96" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="4" />
+
+  <!-- Letter M Modern Monogram with HR Spark -->
+  <g filter="url(#shadow)">
+    <!-- Left vertical bar -->
+    <path d="M140 370 V150 C140 142 146 136 154 136 H178 C184 136 190 140 193 146 L256 260 L319 146 C322 140 328 136 334 136 H358 C366 136 372 142 372 150 V370 C372 378 366 384 358 384 H332 C324 384 318 378 318 370 V226 L269 316 C265 323 255 323 251 316 L202 226 V370 C202 378 196 384 188 384 H154 C146 384 140 378 140 370 Z" fill="#ffffff" />
+  </g>
+
+  <!-- Small Glowing HR Node Badge in Top Right -->
+  <circle cx="380" cy="130" r="28" fill="url(#accentGrad)" filter="url(#shadow)" />
+  <circle cx="380" cy="130" r="14" fill="#ffffff" />
+</svg>
